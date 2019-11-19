@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/LOS CIELOS, LA TIERRA.ogg-d4af43b3f9f8b58d5be0bf77c0a7af05.oggstr"
+
+[deps]
+
+source_file="res://songs/LOS CIELOS, LA TIERRA.ogg"
+dest_files=[ "res://.import/LOS CIELOS, LA TIERRA.ogg-d4af43b3f9f8b58d5be0bf77c0a7af05.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

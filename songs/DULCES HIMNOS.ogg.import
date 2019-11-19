@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/DULCES HIMNOS.ogg-f610b8534463e292f68cb392681bd399.oggstr"
+
+[deps]
+
+source_file="res://songs/DULCES HIMNOS.ogg"
+dest_files=[ "res://.import/DULCES HIMNOS.ogg-f610b8534463e292f68cb392681bd399.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

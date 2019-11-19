@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/NO CESARÁ MI LENGUA.ogg-7379a4d20aae44e6f5a2b4b8cfca0a05.oggstr"
+
+[deps]
+
+source_file="res://songs/NO CESARÁ MI LENGUA.ogg"
+dest_files=[ "res://.import/NO CESARÁ MI LENGUA.ogg-7379a4d20aae44e6f5a2b4b8cfca0a05.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

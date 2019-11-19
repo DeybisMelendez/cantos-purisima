@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/DE MISTICAS FLORES.ogg-e584cbcda63dcfb27dde65f36f643077.oggstr"
+
+[deps]
+
+source_file="res://songs/DE MISTICAS FLORES.ogg"
+dest_files=[ "res://.import/DE MISTICAS FLORES.ogg-e584cbcda63dcfb27dde65f36f643077.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

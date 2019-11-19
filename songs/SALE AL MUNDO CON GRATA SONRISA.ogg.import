@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/SALE AL MUNDO CON GRATA SONRISA.ogg-12884f2ff13a3d017339f43cd1875a69.oggstr"
+
+[deps]
+
+source_file="res://songs/SALE AL MUNDO CON GRATA SONRISA.ogg"
+dest_files=[ "res://.import/SALE AL MUNDO CON GRATA SONRISA.ogg-12884f2ff13a3d017339f43cd1875a69.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

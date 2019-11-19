@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/CON DULCES ACENTOS.ogg-6a65e2d7e9ea0bd4f7e5ec06b61d5bd6.oggstr"
+
+[deps]
+
+source_file="res://songs/CON DULCES ACENTOS.ogg"
+dest_files=[ "res://.import/CON DULCES ACENTOS.ogg-6a65e2d7e9ea0bd4f7e5ec06b61d5bd6.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/ERES TU PASTORA.ogg-f6006aec96cee3ff8972b62526001ab8.oggstr"
+
+[deps]
+
+source_file="res://songs/ERES TU PASTORA.ogg"
+dest_files=[ "res://.import/ERES TU PASTORA.ogg-f6006aec96cee3ff8972b62526001ab8.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

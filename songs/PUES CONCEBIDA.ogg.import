@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/PUES CONCEBIDA.ogg-8bad95288d4e31cea0b8f4087151120f.oggstr"
+
+[deps]
+
+source_file="res://songs/PUES CONCEBIDA.ogg"
+dest_files=[ "res://.import/PUES CONCEBIDA.ogg-8bad95288d4e31cea0b8f4087151120f.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

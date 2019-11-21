@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/OH VIRGEN DE CONCEPCION.ogg-b7935b5e0d4bc9d8c3e90a19a13b90ba.oggstr"
+
+[deps]
+
+source_file="res://songs/OH VIRGEN DE CONCEPCION.ogg"
+dest_files=[ "res://.import/OH VIRGEN DE CONCEPCION.ogg-b7935b5e0d4bc9d8c3e90a19a13b90ba.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

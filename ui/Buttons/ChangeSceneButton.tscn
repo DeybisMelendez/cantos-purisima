@@ -1,0 +1,24 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://ui/Buttons/SongButtonPressed.tres" type="StyleBox" id=1]
+[ext_resource path="res://ui/Buttons/SongButtonNormal.tres" type="StyleBox" id=2]
+[ext_resource path="res://LinLibertine_RB.ttf" type="DynamicFontData" id=3]
+[ext_resource path="res://ui/Buttons/ChangeSceneButton.gd" type="Script" id=4]
+
+[sub_resource type="DynamicFont" id=1]
+size = 48
+use_filter = true
+font_data = ExtResource( 3 )
+
+[node name="BackButton" type="Button"]
+margin_right = 12.0
+margin_bottom = 20.0
+focus_mode = 0
+size_flags_horizontal = 4
+custom_styles/hover = ExtResource( 1 )
+custom_styles/pressed = ExtResource( 1 )
+custom_styles/normal = ExtResource( 2 )
+custom_fonts/font = SubResource( 1 )
+custom_colors/font_color_pressed = Color( 0.831373, 0.686275, 0.215686, 1 )
+text = "Retroceder"
+script = ExtResource( 4 )

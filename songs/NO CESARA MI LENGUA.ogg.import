@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/NO CESARA MI LENGUA.ogg-bdaa5f007759e9f1576ea698167b2bf2.oggstr"
+
+[deps]
+
+source_file="res://songs/NO CESARA MI LENGUA.ogg"
+dest_files=[ "res://.import/NO CESARA MI LENGUA.ogg-bdaa5f007759e9f1576ea698167b2bf2.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

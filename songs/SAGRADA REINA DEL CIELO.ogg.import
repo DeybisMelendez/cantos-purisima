@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/SAGRADA REINA DEL CIELO.ogg-49f554fba0c0c199d4d95bf4356dd0cc.oggstr"
+
+[deps]
+
+source_file="res://songs/SAGRADA REINA DEL CIELO.ogg"
+dest_files=[ "res://.import/SAGRADA REINA DEL CIELO.ogg-49f554fba0c0c199d4d95bf4356dd0cc.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

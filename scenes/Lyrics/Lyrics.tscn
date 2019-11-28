@@ -67,6 +67,6 @@ margin_left = -215.0
 margin_right = 0.0
 margin_bottom = 67.0
 text = "Regresar"
-scene = "res://scenes/MainMenu/MainMenu.tscn"
+scene = "res://scenes/Selection/Selection.tscn"
 
 [node name="MusicButton" parent="." instance=ExtResource( 6 )]

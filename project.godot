@@ -19,6 +19,8 @@ config/name="Cantos purisima (griteria)"
 run/main_scene="res://scenes/MainMenu/MainMenu.tscn"
 boot_splash/image="res://damv.png"
 config/icon="res://background.jpg"
+config/auto_accept_quit=false
+config/quit_on_go_back=false
 
 [autoload]
 

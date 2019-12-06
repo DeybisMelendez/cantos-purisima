@@ -7,4 +7,4 @@ func _ready():
 
 func button_up():
 	Transition.actual_song = text
-	Transition.change_scene(LYRICS)
+	Back.push(LYRICS)

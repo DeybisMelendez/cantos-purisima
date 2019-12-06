@@ -1,11 +1,10 @@
-[gd_scene load_steps=9 format=2]
+[gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://scenes/Lyrics/Lyrics.gd" type="Script" id=1]
 [ext_resource path="res://ui/TouchScroll/TouchScroll.tscn" type="PackedScene" id=2]
 [ext_resource path="res://LinLibertine_RB.ttf" type="DynamicFontData" id=3]
 [ext_resource path="res://LinLibertine_aDRS.ttf" type="DynamicFontData" id=4]
-[ext_resource path="res://ui/Buttons/ChangeSceneButton.tscn" type="PackedScene" id=5]
-[ext_resource path="res://ui/Buttons/MusicButton.tscn" type="PackedScene" id=6]
+[ext_resource path="res://ui/Buttons/MusicButton.tscn" type="PackedScene" id=5]
 
 [sub_resource type="DynamicFont" id=1]
 size = 48
@@ -18,7 +17,9 @@ font_data = ExtResource( 3 )
 [sub_resource type="DynamicFont" id=2]
 size = 36
 outline_size = 4
-outline_color = Color( 0, 0, 0, 1 )
+outline_color = Color( 1, 1, 1, 0.784314 )
+use_mipmaps = true
+use_filter = true
 font_data = ExtResource( 4 )
 
 [node name="Lyrics" type="Control"]
@@ -50,6 +51,7 @@ margin_top = 319.0
 margin_right = 720.0
 margin_bottom = 361.0
 custom_fonts/font = SubResource( 2 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 text = "lyrics"
 align = 1
 valign = 1
@@ -60,13 +62,4 @@ margin_right = 720.0
 margin_bottom = 593.0
 rect_min_size = Vector2( 0, 200 )
 
-[node name="BackButton" parent="." instance=ExtResource( 5 )]
-anchor_left = 1.0
-anchor_right = 1.0
-margin_left = -215.0
-margin_right = 0.0
-margin_bottom = 67.0
-text = "Regresar"
-scene = "res://scenes/Selection/Selection.tscn"
-
-[node name="MusicButton" parent="." instance=ExtResource( 6 )]
+[node name="MusicButton" parent="." instance=ExtResource( 5 )]

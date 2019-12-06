@@ -1,31 +1,40 @@
 extends VBoxContainer
-export var weight = 0.1
-export var vertical_scroll = true
+
 export var horizontal_scroll = false
-onready var initial_position = rect_position
-var distance = 0.0
-var extra_distance = 0.0
-
-var position = Vector2.ZERO
+export var vertical_scroll = true
+export var force = 10
+export var weight = 0.1
+onready var origin_position = rect_position
 var is_pressed = false
-var mouse_pressed_pos = Vector2.ZERO
-
+var pressed_position = Vector2.ZERO
+var position = Vector2.ZERO
+var distance = Vector2.ZERO
+var mouse_position = Vector2.ZERO
+var last_mouse_speed = Vector2.ZERO
 
 func _input(event):
-	if event is InputEventMouseButton:
-		print("IS EVENT MOUSE BUTTON")
+	if event is InputEventScreenTouch:
 		if event.is_pressed():
-			mouse_pressed_pos = event.position
-			position = rect_position
 			is_pressed = true
-		else:
+			pressed_position = event.position
+			position = rect_position
+			last_mouse_speed = get_local_mouse_position()
+		else: 
 			is_pressed = false
-			extra_distance = distance * 2
+			last_mouse_speed = (get_local_mouse_position() - last_mouse_speed) * force
 
 func _physics_process(delta):
 	if is_pressed:
-		distance = get_global_mouse_position().y - mouse_pressed_pos.y
-		rect_position.y = position.y + distance
+		var mouse_position = get_global_mouse_position()
+		distance = mouse_position - pressed_position
+		if horizontal_scroll:
+			rect_position.x = position.x + distance.x
+		if vertical_scroll:
+			rect_position.y = position.y + distance.y
 	else:
-		rect_position.y = lerp(rect_position.y, position.y + extra_distance, weight)
-	rect_position.y = clamp(rect_position.y, -(rect_size.y - get_viewport_rect().size.y), initial_position.y)
+		if horizontal_scroll:
+			rect_position.x = lerp(rect_position.x, position.x + last_mouse_speed.x, weight)
+		if vertical_scroll:
+			rect_position.y = lerp(rect_position.y, position.y + distance.y + last_mouse_speed.y, weight)
+	rect_position.x = clamp(rect_position.x, get_parent().rect_position.x + get_parent().rect_size.x - rect_size.x, origin_position.x)
+	rect_position.y = clamp(rect_position.y, get_parent().rect_position.y + get_parent().rect_size.y - rect_size.y, origin_position.y)

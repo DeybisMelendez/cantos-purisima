@@ -4,4 +4,4 @@ func _ready():
 	connect("button_up", self, "button_up")
 
 func button_up():
-	Transition.change_scene(scene)
+	Back.push(scene)

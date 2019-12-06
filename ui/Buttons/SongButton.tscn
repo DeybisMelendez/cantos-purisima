@@ -5,6 +5,8 @@
 [ext_resource path="res://LinLibertine_RB.ttf" type="DynamicFontData" id=3]
 [ext_resource path="res://ui/Buttons/SongButton.gd" type="Script" id=4]
 
+
+
 [sub_resource type="DynamicFont" id=1]
 size = 28
 use_filter = true
@@ -19,6 +21,7 @@ custom_styles/hover = ExtResource( 1 )
 custom_styles/pressed = ExtResource( 1 )
 custom_styles/normal = ExtResource( 2 )
 custom_fonts/font = SubResource( 1 )
+custom_colors/font_color = Color( 0.980392, 0.980392, 0.980392, 1 )
 custom_colors/font_color_pressed = Color( 0.831373, 0.686275, 0.215686, 1 )
 text = "Hello World"
 script = ExtResource( 4 )

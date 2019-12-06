@@ -5,6 +5,8 @@
 [ext_resource path="res://LinLibertine_RB.ttf" type="DynamicFontData" id=3]
 [ext_resource path="res://ui/Buttons/ChangeSceneButton.gd" type="Script" id=4]
 
+
+
 [sub_resource type="DynamicFont" id=1]
 size = 48
 use_filter = true
